@@ -1,6 +1,6 @@
 # Pizzahut-Sales-Analysis-SQL-Project
 ## Project Overview
-**Project Title**: Retail Sales Analysis  
+**Project Title**: Pizzahut Sales Analysis  
 **Level**: Beginner  
 **Database**: `pizzahut`
 This project is designed to demonstrate SQL skills and techniques used by data analysts to explore, clean, and analyze Pizza Hut sales data. It involves setting up a Pizza Hut sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is perfect for beginners looking to build a solid foundation in data analysis and gain practical experience with SQL
@@ -13,6 +13,7 @@ This project is designed to demonstrate SQL skills and techniques used by data a
 ## Project Structure
 
 ### 1. Database Setup
+
 **Database Creation**:The project begins by creating a database named pizzahut.
 **Table Creation**: Several tables are created to store sales data:
 **orders**: Stores general order information.
