@@ -21,7 +21,7 @@ This project is designed to demonstrate SQL skills and techniques used by data a
 + **pizza_types**: Categorizes pizzas.
 ```
 inline 'create database' pizzahut;
-indented code
+
 
 create table orders(order_id int primary key,
 order_date datetime,
