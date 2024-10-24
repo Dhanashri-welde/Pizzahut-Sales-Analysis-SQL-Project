@@ -19,28 +19,31 @@ This project is designed to demonstrate SQL skills and techniques used by data a
 + **order_details**: Stores details of each pizza in an order.
 + **pizzas**: Contains information about different pizzas.
 + **pizza_types**: Categorizes pizzas.
-
+```
 create database pizzahut;
 
 create table orders(order_id int primary key,
 order_date datetime,
 order_time time);
-
+```
+```
 create table orders_details(order_details_id int primary key,
 order_id int,
 pizza_id text,
 quantity int);
-
+```
+```
 create table pizza_types(pizza_type_id text,
 name text,
 category text,
 ingredients text);
-
+```
+```
 create table pizzas(pizza_id text,
 pizza_type_id text,
 size text,
 price double);
-'''
+```
 ### 2. Data Exploration & Cleaning
  **Record Count**:Determine the total number of records in the orders table.
  **Pizza Count**:Find out how many unique customers are in the dataset.
