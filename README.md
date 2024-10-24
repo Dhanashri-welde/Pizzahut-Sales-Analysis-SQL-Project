@@ -72,11 +72,13 @@ WHERE order_id IS NULL OR order_date IS NULL OR order_time IS NULL;
 
 ### 3. Data Analysis & Findings
 Q1.**Retrieve the total number of orders placed.**: 
+```
 SELECT 
     COUNT(order_id) AS total_no_orders
 FROM
     orders;
-    
+    ```
+```
 Q2.**Calculate the total revenue generated from pizza sales.**:
 SELECT 
     ROUND(SUM(od.quantity * p.price), 2) AS total_sales
@@ -84,7 +86,8 @@ FROM
     orders_details od
         JOIN
     pizzas p ON p.pizza_id = od.pizza_id;
-    
+    ```
+    ```
  Q3.**Write a query to find all orders made at '12:00'.**:
 
 SELECT 
@@ -93,6 +96,8 @@ FROM
     orders
 WHERE
     order_time = '12:00:00';
+    ```
+    ```
     
 Q4.**Identify the highest-priced pizza.**:
 SELECT 
@@ -102,7 +107,7 @@ FROM
         JOIN
     pizzas ON pizza_types.pizza_type_id = pizzas.pizza_type_id
 ORDER BY pizzas.price desc limit 1;
-
+```
 Q5.**Identify the most common pizza size ordered.**:
 SELECT 
     pizzas.size,
