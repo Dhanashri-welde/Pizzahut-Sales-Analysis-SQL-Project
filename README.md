@@ -251,14 +251,14 @@ ORDER BY
     revenue DESC;
 ```
 ## Findings
--- **Customer Demographics**:Customers come from different age groups, showing a mix of preferences for various pizza types.
--- **Sales Trends**:Monthly sales vary, helping us identify busy times like weekends or holidays.
--- **Customer Insights**:We found out who the top spenders are and which pizzas are the most popular.
++ **Customer Demographics**:Customers come from different age groups, showing a mix of preferences for various pizza types.
++ **Sales Trends**:Monthly sales vary, helping us identify busy times like weekends or holidays.
++ **Customer Insights**:We found out who the top spenders are and which pizzas are the most popular.
 
 ## Reports
--- **Sales Summary**:A report that covers total sales, customer information, and performance by pizza type.
--- **Trend Analysis**:Insights into how sales change over different months, which helps plan for promotions.
--- **Customer Insights**:Information on top customers and how many unique customers ordered each type of pizza.
++ **Sales Summary**:A report that covers total sales, customer information, and performance by pizza type.
++ **Trend Analysis**:Insights into how sales change over different months, which helps plan for promotions.
++ **Customer Insights**:Information on top customers and how many unique customers ordered each type of pizza.
 
 ## Conclusion
 -- **This project helped us learn how to use SQL to analyze Pizza Hut sales data.**
