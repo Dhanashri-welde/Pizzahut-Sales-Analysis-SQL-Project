@@ -13,12 +13,12 @@ This project is designed to demonstrate SQL skills and techniques used by data a
 ## Project Structure
 
 ### 1. Database Setup
- **Database Creation**:The project begins by creating a database named pizzahut.
- **Table Creation**: Several tables are created to store sales data:
- **orders**: Stores general order information.
- **order_details**: Stores details of each pizza in an order.
- **pizzas**: Contains information about different pizzas.
- **pizza_types**: Categorizes pizzas.
+ ** Database Creation**:The project begins by creating a database named pizzahut.
+ ** Table Creation**: Several tables are created to store sales data:
+ ** orders**: Stores general order information.
+ ** order_details**: Stores details of each pizza in an order.
+ ** pizzas**: Contains information about different pizzas.
+ ** pizza_types**: Categorizes pizzas.
 
 create database pizzahut;
 
