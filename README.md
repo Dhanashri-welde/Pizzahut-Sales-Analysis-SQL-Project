@@ -5,21 +5,21 @@
 **Database**: `pizzahut`
 This project is designed to demonstrate SQL skills and techniques used by data analysts to explore, clean, and analyze Pizza Hut sales data. It involves setting up a Pizza Hut sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is perfect for beginners looking to build a solid foundation in data analysis and gain practical experience with SQL
 ## Objectives
-1 Set up a Pizza Hut Sales Database: Create and populate a database with the provided sales data.
-2 Data Cleaning: Identify and remove any records with missing or null values.
-3 Exploratory Data Analysis (EDA): Perform basic EDA to understand the dataset.
-4 Business Analysis: Use SQL to answer specific business questions and derive insights from the sales data.
+* Set up a Pizza Hut Sales Database: Create and populate a database with the provided sales data.
+* Data Cleaning: Identify and remove any records with missing or null values.
+* Exploratory Data Analysis (EDA): Perform basic EDA to understand the dataset.
+* Business Analysis: Use SQL to answer specific business questions and derive insights from the sales data.
 
 ## Project Structure
 
 ### 1. Database Setup
  **Database Creation**:The project begins by creating a database named pizzahut.
  **Table Creation**: Several tables are created to store sales data:
- 1.**orders**: Stores general order information.
- 2.**order_details**: Stores details of each pizza in an order.
- 3.**pizzas**: Contains information about different pizzas.
- 4.**pizza_types**: Categorizes pizzas.
-'''
+ **orders**: Stores general order information.
+ **order_details**: Stores details of each pizza in an order.
+ **pizzas**: Contains information about different pizzas.
+ **pizza_types**: Categorizes pizzas.
+
 create database pizzahut;
 
 create table orders(order_id int primary key,
