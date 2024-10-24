@@ -256,14 +256,14 @@ ORDER BY
 + **Customer Insights**:We found out who the top spenders are and which pizzas are the most popular.
 
 ## Reports
-+ **Sales Summary**:A report that covers total sales, customer information, and performance by pizza type.
-+ **Trend Analysis**:Insights into how sales change over different months, which helps plan for promotions.
-+ **Customer Insights**:Information on top customers and how many unique customers ordered each type of pizza.
++ **Sales Summary**: A report that covers total sales, customer information, and performance by pizza type.
++ **Trend Analysis**: Insights into how sales change over different months, which helps plan for promotions.
++ **Customer Insights**: Information on top customers and how many unique customers ordered each type of pizza.
 
 ## Conclusion
--- **This project helped us learn how to use SQL to analyze Pizza Hut sales data.**
--- **Set Up a Database**: Organized sales information in a clear way.
--- **Cleaned the Data**: Fixed any mistakes or missing information to make sure our data is reliable.
--- **Explored the Data**: Used SQL queries to find out important patterns in customer behavior and sales.
--- **Gained Insights**: Discovered trends that can help with future marketing and promotions.
--- **In short, this project shows how data analysis can help make better business decisions and improve customer experiences at Pizza Hut.** 
++ **This project helped us learn how to use SQL to analyze Pizza Hut sales data.**
++ **Set Up a Database**: Organized sales information in a clear way.
++ **Cleaned the Data**: Fixed any mistakes or missing information to make sure our data is reliable.
++ **Explored the Data**: Used SQL queries to find out important patterns in customer behavior and sales.
++ **Gained Insights**: Discovered trends that can help with future marketing and promotions.
++ **In short, this project shows how data analysis can help make better business decisions and improve customer experiences at Pizza Hut.** 
