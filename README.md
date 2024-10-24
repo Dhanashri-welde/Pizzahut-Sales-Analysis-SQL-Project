@@ -20,7 +20,7 @@ This project is designed to demonstrate SQL skills and techniques used by data a
 + **pizzas**: Contains information about different pizzas.
 + **pizza_types**: Categorizes pizzas.
 ```
-create database pizzahut;
+'create database' pizzahut;
 
 create table orders(order_id int primary key,
 order_date datetime,
