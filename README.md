@@ -7,8 +7,8 @@ This project is designed to demonstrate SQL skills and techniques used by data a
 ## Objectives
 * Set up a Pizza Hut Sales Database: Create and populate a database with the provided sales data.
 * Data Cleaning: Identify and remove any records with missing or null values.
-*  Exploratory Data Analysis (EDA): Perform basic EDA to understand the dataset.
-*   Business Analysis: Use SQL to answer specific business questions and derive insights from the sales data.
+* Exploratory Data Analysis (EDA): Perform basic EDA to understand the dataset.
+* Business Analysis: Use SQL to answer specific business questions and derive insights from the sales data.
 
 ## Project Structure
 
@@ -20,7 +20,7 @@ This project is designed to demonstrate SQL skills and techniques used by data a
 + **pizzas**: Contains information about different pizzas.
 + **pizza_types**: Categorizes pizzas.
 ```
-`create database` pizzahut;
+create database pizzahut;
 
 
 create table orders(order_id int primary key,
