@@ -45,24 +45,20 @@ size text,
 price double);
 ```
 ### 2. Data Exploration & Cleaning
- **Record Count**:Determine the total number of records in the orders table.
- **Pizza Count**:Find out how many unique customers are in the dataset.
- **Pizza_types Count**:Identify all unique pizza types in the dataset.
- **Null Value Check**:Check for any null values in the orders, orders_details, pizza_types, and pizzas tables.
- **Data Deletion**:Delete records with null values.
-'''
-sql 
+ + **Record Count**:Determine the total number of records in the orders table.
+ + **Pizza Count**:Find out how many unique customers are in the dataset.
+ + **Pizza_types Count**:Identify all unique pizza types in the dataset.
+ + **Null Value Check**:Check for any null values in the orders, orders_details, pizza_types, and pizzas tables.
+ + **Data Deletion**:Delete records with null values.
+
+```
+sql
 SELECT COUNT(*) AS TotalOrders FROM orders;
 SELECT COUNT(DISTINCT pizza_id) AS TotalPizzas FROM pizzas;
 SELECT COUNT(DISTINCT pizza_type_id) AS TotalPizzaTypes FROM pizza_types;
 
-SELECT 
-    *
-FROM
-    orders
-WHERE
-    order_id IS NULL OR order_date IS NULL
-        OR order_time IS NULL;
+SELECT * FROM orders
+WHERE order_id IS NULL OR order_date IS NULL OR order_time IS NULL;
 
 SELECT * FROM orders_details
 WHERE order_details_id IS NULL OR order_id IS NULL OR pizza_id IS NULL OR quantity IS NULL;
@@ -72,7 +68,7 @@ WHERE pizza_type_id IS NULL OR name IS NULL OR category IS NULL OR ingredients I
 
 DELETE FROM orders
 WHERE order_id IS NULL OR order_date IS NULL OR order_time IS NULL;
-'''
+```
 
 ### 3. Data Analysis & Findings
 
